@@ -1,0 +1,91 @@
+body {
+	font-family: 'Open Sans', sans-serif !important;
+}
+
+.header .nav-item-hover:after {
+    background: #4f423a;
+}
+
+.header .navbar-toggle:hover .toggle-icon, .header .navbar-toggle:hover .toggle-icon:after, .header .navbar-toggle:hover .toggle-icon:before {
+    background: #4f423a;
+}
+
+.navbar-fixed-top {
+    /*background-color: #4f423a;*/
+    border-bottom: thin #dadadacf solid;
+}
+
+.header .nav-item-child {
+    color: #515769;
+}
+
+.header .navbar {
+    border-bottom: none; 
+}
+
+.header .logo {
+    width: 100px;
+    height: 100px;
+}
+
+.btn-theme-sm {
+    padding: 10px 33px;
+    border-radius: 10em;
+}
+
+.btn-white-bg {
+    color: #4f423a;
+    background: none; 
+    border: thin #4f423a solid;
+}
+
+.btn-white-bg.focus, .btn-white-bg:focus, .btn-white-bg:hover {
+    background: #4f423a;
+}
+
+.carousel-title {
+    font-size: 60px;
+}
+
+.carousel-centered {
+    top: 73%;
+}
+
+h2{
+    /*margin: .3em 0;*/
+    color: #4f423a;
+}
+
+h3 {
+	color: #4f423a;
+}
+
+.content-lg {
+    padding-bottom: 0px;
+}
+
+/*HOME*/
+.header .nav-main {
+    color: #fff;
+}
+
+.navbar-main {
+    /*background-color: #4f423a00;*/
+    border-bottom: none;
+}
+
+/*ABOUT*/
+.accordion .collapse.in, .accordion [aria-expanded=true] {
+    background: #4f423a;
+}
+
+footer {
+    margin-top: 5em;
+}
+
+/*PRODUCT*/
+#products>div>.row:nth-child(1) {
+    margin-bottom: 40px;
+}
+
+
